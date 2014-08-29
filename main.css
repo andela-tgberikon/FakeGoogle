@@ -1,0 +1,163 @@
+
+header {
+	margin-left: 860px;
+	margin-top: 20px;
+	min-width: 240px;
+	display: inline-block;
+	position: relative;
+}
+
+/*html{
+	w
+	position: center;
+}
+*/
+ 				/********************************************************/
+ 				/*    				LINKS SECTION						*/
+ 				/********************************************************/
+
+
+a{
+	text-decoration: none;
+	display: inline-block;
+	}
+
+li{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+a:hover{
+		text-decoration: underline;
+	}
+
+
+
+
+				/**********************************************************/
+				/*							ICONS						  */
+				/**********************************************************/
+
+#icon{
+		width: 20px;
+		height: 20px;
+	}
+
+
+
+
+				/***********************************************************/
+				/*					BUTTONS SECTIONS					   */
+				/***********************************************************/
+input[value*="Sign"]{
+					background: #4285f4;
+					border:none;
+					margin: 2px auto;
+					font-size: 1em;
+					height: 30px;
+				}
+
+
+#search_buttons{
+				margin-top: 20px;
+				margin-left: 200px;
+				margin-right: 10px;
+				border:none;
+				font-size: 0.6em;
+				min-width: 420px;
+			}
+
+
+
+
+
+				/************************************************************/
+				/*					SEARCHBOX SECTION						*/
+				/************************************************************/
+
+
+#search_box {
+			margin: 10px 120px 120px 280px;
+		}
+
+input:focus{
+			border-color: skyblue;
+		}
+
+input[type="text"]{
+					width: 640px;
+					height: 30px;
+					background-image: url('Voice-Search.ico');
+					background-repeat: no-repeat;
+					background-size: 35px auto;
+					background-position: right;
+					font-size: 1.2em;
+				}
+
+
+
+
+
+				 /**************************************************************/
+				 /*							GOOGLE LOGO						   */
+				 /**************************************************************/
+
+#google_logo{
+				margin: 120px 0 10px 390px;
+			}
+
+#google_logo img{
+				width: 420px;
+				height: 180px;
+				}
+
+
+
+				
+					/********************************************************/
+					/*				TEXT BELOW SEARCH BOX 					*/
+					/********************************************************/
+
+#google_languages{
+				margin: 20px auto;
+				margin-bottom: 120px;
+				margin-right: 3px;
+				margin-left: 2px;
+				min-width: 480px;
+		}
+
+div#google_languages p a{
+						margin-right: 8px;
+						}
+
+
+
+
+
+					/**********************************************************/
+					/*					FOOTER SECTION						  */
+					/**********************************************************/
+
+footer{	
+		height: 35px;
+		background-color: #ccc;
+		
+		width: 100%;
+		padding-top: 30px;
+
+}
+
+#footer_Left {
+			float:left;
+			padding: 10px;
+			}
+			
+#footer_Right {
+			float: right;
+			padding: 10px;
+			}
+
+div#footer_Left li{
+				margin-right: 5px;
+			}
