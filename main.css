@@ -100,6 +100,7 @@ input[type="text"]{
 
 #google_logo{
 				margin: 120px 0 10px 390px;
+				repeat: no-repeat;
 			}
 
 #google_logo img{
